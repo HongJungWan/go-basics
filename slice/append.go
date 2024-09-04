@@ -11,7 +11,3 @@ func main() {
 	slice2 = append(slice, 1, 2, 3, 4)
 	fmt.Println(slice2)
 }
-
-/*
-📌
-*/
