@@ -13,4 +13,4 @@ COPY ./ ./
 # ENTRYPOINT: `컨테이너가 시작`할 때 실행되는 명령어
 ENTRYPOINT ["/bin/bash", "-c", "sleep 500"]
 
-# EXPOSE: 컨테이너 내부에서 사용 중인 포틀르 문서화하기
+# EXPOSE: 컨테이너 내부에서 사용 중인 포트를 문서화하기
