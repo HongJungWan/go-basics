@@ -18,20 +18,20 @@
 
 | CHAPTER        | PROGRESS |
 |----------------|----------|
-| Type           | ✔     |
+| Type           | ✔        |
 | Operator       |          |
-| Function 1     | ✔     |
-| Const          | ✔     |
+| Function 1     | ✔        |
+| Const          | ✔        |
 | If             |          |
-| For            | ✔     |
-| Array          | ✔     |
-| Struct         | ✔     |
-| Pointer        | ✔     |
-| String         | ✔     |
-| Package        | ✔     |
-| Slice          | ✔     |
-| Method         | ✔     |
-| Interface      |          |
+| For            | ✔        |
+| Array          | ✔        |
+| Struct         | ✔        |
+| Pointer        | ✔        |
+| String         | ✔        |
+| Package        | ✔        |
+| Slice          | ✔        |
+| Method         | ✔        |
+| Interface      | 50%      |
 | Function 2     |          |
 | Data Struct    |          |
 | Error Handling | 30%      |
