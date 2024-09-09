@@ -18,19 +18,19 @@
 
 | CHAPTER        | PROGRESS |
 |----------------|----------|
-| Type           | 1회독     |
+| Type           | ✔     |
 | Operator       |          |
-| Function 1     | 1회독     |
-| Const          | 1회독     |
+| Function 1     | ✔     |
+| Const          | ✔     |
 | If             |          |
-| For            | 1회독     |
-| Array          | 1회독     |
-| Struct         | 1회독     |
-| Pointer        | 1회독     |
-| String         | 1회독     |
-| Package        | 1회독     |
-| Slice          | 1회독     |
-| Method         | 1회독     |
+| For            | ✔     |
+| Array          | ✔     |
+| Struct         | ✔     |
+| Pointer        | ✔     |
+| String         | ✔     |
+| Package        | ✔     |
+| Slice          | ✔     |
+| Method         | ✔     |
 | Interface      |          |
 | Function 2     |          |
 | Data Struct    |          |
@@ -44,6 +44,6 @@
 
 | CHAPTER     | PROGRESS |
 |-------------|----------|
-| Docker      | 1회독     |
-| Docker File | 1회독     |
-| Docker Compose           |          |
+| Docker      | ✔     |
+| Docker File | ✔     |
+| Docker Compose           |  ✔        |
