@@ -1,0 +1,41 @@
+services:
+  my-web-server:
+    container_name: web-server
+    image: nginx
+    ports:
+      - 80:80
+
+  my-cache-server:
+    container_name: cache-server
+    image: redis
+    ports:
+      - 6379:6379
+
+  my-api-server:
+    container_name: go-server
+    build: .
+    ports:
+      - 8080:8080
+
+  my-db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: pwe1234
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    ports:
+      - 3306:3306
+
+# `services: my-web-server` : Docekr Compose에서 하나의 컨테이너를 **서비스(service)**라고 부른다.
+
+# `container_name: web-server` : 컨테이너를 띄울 때 붙이는 별칭이다. CLI에서 `--name web-server` 역할과 동일하다.
+
+# `image: nginx` : 컨테이너를 실행시킬 때 어떤 이미지를 사용할 지 정의하는 명령어다.
+
+# `ports` : 포트 매핑은 어떻게 할 지를 설정하는 옵션이다.
+
+# `build: .` : compose.yml이 존재하는 디렉토리(.)에 있는 Dockerfile로 이미지를 생성해 컨테이너를 띄우겠다는 의미.
+
+# compose.yml을 보면 각 컨테이너에 service 이름(my-server, my-db)을 작성한다.
+# 이 service 이름이 컨테이너의 주소를 뜻한다. 해당 컨테이너의 IP 주소와 같은 역할을 한다.
+# compose.yml에서 정의한 Service 이름으로 서로 통신할 수 있다.

@@ -1,5 +1,22 @@
 # Dockerfile 기반으로 이미지 만들기
-# docker build -t go-server .
+$ docker build -t go-server .
 
 # 컨테이너 내부 접근
-# docker exec -it 컨테이너 ID bash
+$ docker exec -it 컨테이너 ID bash
+
+# compose.yml에서 정의한 컨테이너 실행
+$ docker compose up
+$ docker compose up -d
+
+# Docker Compose 로그 확인
+$ docker compose logs
+
+# 컨테이너 실행 전, 이미지 재빌드하기
+$ docker compose up --build
+$ docker compose up --build -d
+
+# 이미지 다운 / 업데이트
+$ docker compose pull
+
+# Docker Compose에서 이용한 컨테이너 종료
+$ docker compose down
