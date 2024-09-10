@@ -31,7 +31,7 @@
 | Package        | ✔        |
 | Slice          | ✔        |
 | Method         | ✔        |
-| Interface      | 50%      |
+| Interface      | ✔      |
 | Function 2     |          |
 | Data Struct    |          |
 | Error Handling | 30%      |
