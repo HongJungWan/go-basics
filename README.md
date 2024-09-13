@@ -31,9 +31,9 @@
 | Package        | ✔        |
 | Slice          | ✔        |
 | Method         | ✔        |
-| Interface      | ✔      |
+| Interface      | ✔        |
 | Function 2     |          |
-| Data Struct    |          |
+| Data Struct    | ✔         |
 | Error Handling | 30%      |
 | Goroutine      |          |
 | Channel        |          |
