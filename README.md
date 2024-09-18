@@ -32,10 +32,10 @@
 | Slice          | ✔        |
 | Method         | ✔        |
 | Interface      | ✔        |
-| Function 2     | ✔         |
-| Data Struct    | ✔         |
+| Function 2     | ✔        |
+| Data Struct    | ✔        |
 | Error Handling | 30%      |
-| Goroutine      |          |
+| Goroutine      | 30%      |
 | Channel        |          |
 | Context        |          |
 | Appendix       |          |
