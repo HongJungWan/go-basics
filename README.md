@@ -35,7 +35,7 @@
 | Function 2     | ✔        |
 | Data Struct    | ✔        |
 | Error Handling | 30%      |
-| Goroutine      | 30%      |
+| Goroutine      | 70%      |
 | Channel        |          |
 | Context        |          |
 | Appendix       |          |
