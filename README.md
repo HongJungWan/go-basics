@@ -34,8 +34,8 @@
 | Interface      | ✔        |
 | Function 2     | ✔        |
 | Data Struct    | ✔        |
-| Error Handling | 30%      |
-| Goroutine      | 90%      |
+| Error Handling | 35%      |
+| Goroutine      | ✔        |
 | Channel        |          |
 | Context        |          |
 | Appendix       |          |
