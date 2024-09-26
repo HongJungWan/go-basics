@@ -36,7 +36,7 @@
 | Data Struct    | ✔        |
 | Error Handling | 35%      |
 | Goroutine      | ✔        |
-| Channel        | 50%      |
+| Channel        | ✔      |
 | Context        |          |
 | Appendix       |          |
 
